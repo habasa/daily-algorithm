@@ -18,4 +18,4 @@ function solution(arr1, arr2) {
     return arr1.map((el,i) => el.map((el2,j) => el2 + arr2[i][j]))
 }
 
-// 이렇게도 가능.
+// 이렇게도 가능.f
