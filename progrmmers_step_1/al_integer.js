@@ -6,3 +6,4 @@ function solution(n) {
     }
     return -1
 }
+//test
