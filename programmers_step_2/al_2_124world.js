@@ -18,3 +18,8 @@ function solution(n) {
     
 // 10진법 3으로 나누면 나머지값에 따라 값 변동
 // 1=>1 2=>2 0=>4
+
+// 재귀 
+function solution(n) {
+    return n ? solution((n - (n % 3 || 3)) / 3) + (n % 3 || 4): '';
+}

@@ -3,7 +3,7 @@ let activity = [[1,1,3], [2,2,5], [3,4,7], [4,1,8], [5,5,9], [6,8,10], [7,9,11],
 
 function activitySelection(act) {
     let result = []
-    let sorted = act.sort((prev, cur) => {
+    let sorted = act.sort((prev, cur) => { // 아 sorting 이렇게 가능하지...
         return prev[2] - cur[2]
     }) // using last array index to sorting activity.
 
