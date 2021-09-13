@@ -1,3 +1,4 @@
+// 객체 복습
 function getValueOfNthElement(arr, num) {
     if(arr.length === 0) {
       return 'no name'
