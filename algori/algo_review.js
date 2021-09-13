@@ -1,4 +1,4 @@
-// 객체 복습
+// 객체 복습 깃 에러 뭐임?
 function getValueOfNthElement(arr, num) {
     if(arr.length === 0) {
       return 'no name'
